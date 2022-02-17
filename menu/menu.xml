@@ -1,0 +1,12 @@
+<odoo>
+    <data>
+       <!--  menu Commerciale -->
+       <menuitem name="Hotel" id="taf_menu_root" sequence="1" />
+       <menuitem name="Chambre" id="hotel_menu_root" parent="taf_menu_root" action="action_hotel_chambre" sequence="1" />
+       <menuitem name="Clients" id="client" parent="taf_menu_root" sequence="1" action="action_hotel_client"/>
+       <menuitem name="Reservation" id="reservation" parent="taf_menu_root" sequence="4" action="action_hotel_resevation"/>
+       <menuitem name="Presonnels" id="personnel" parent="taf_menu_root" sequence="2" action="action_hotel_personnel"/>  
+       <menuitem name="Paiements" id="paie" parent="taf_menu_root" sequence="3"/> 
+       <menuitem name="Specifications" id="cc" parent="taf_menu_root" action="action_hotel_specification"/>
+    </data>
+</odoo>
